@@ -1,0 +1,37 @@
+:root{
+    --primary-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
+    --primary-font-weight: 500;
+}
+header {
+    
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+
+}
+.navigation {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.buttons {
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.buttons:active {
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
