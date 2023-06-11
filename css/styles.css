@@ -49,9 +49,9 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus,
+.nav-link:active,
 .address-link:hover,
-.adress-link:focus {
+.adress-link:active {
     color: var(--pressed-state-color);
 }
 .hero {
@@ -76,7 +76,7 @@ body {
     cursor: pointer;
 }
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:active {
     background-color:var(--pressed-state-color);
 }
 .benefits-title {
@@ -116,6 +116,7 @@ body {
 .team-position {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .footer {
     background-color: var(--dark-brand-color);
@@ -141,7 +142,7 @@ body {
     cursor: pointer;
 }
 .portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-button:active {
     background: var(--pressed-state-color);
     color: var(--white-color);
 }
