@@ -38,6 +38,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark-brand-color);
 }
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--pressed-state-color);
+}
 .header-address {
     font-style: normal;
 }
@@ -47,11 +51,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-
-.nav-link:hover,
-.nav-link:active,
 .address-link:hover,
-.adress-link:active {
+.adress-link:focus {
     color: var(--pressed-state-color);
 }
 .hero {
@@ -76,15 +77,15 @@ body {
     cursor: pointer;
 }
 .hero-button:hover,
-.hero-button:active {
-    background-color:var(--pressed-state-color);
+.hero-button:focus {
+    background-color: var(--pressed-state-color);
 }
 .benefits-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--dark-brand-color);
+    color: (--dark-brand-color);
 }
 .benefits-text {
     font-size: 16px;
@@ -142,8 +143,8 @@ body {
     cursor: pointer;
 }
 .portfolio-button:hover,
-.portfolio-button:active {
-    background: var(--pressed-state-color);
+.portfolio-button:focus {
+    background-color: var(--pressed-state-color);
     color: var(--white-color);
 }
 .portfolio-item {
